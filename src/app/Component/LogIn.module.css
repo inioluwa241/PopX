@@ -1,0 +1,31 @@
+/* Container */
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 30px 0;
+  width: 90%;
+  /* background: red; */
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+.input_group {
+  position: relative;
+}
+
+/* Button */
+.button {
+  width: 100%;
+  background-color: #cbcbcb;
+  color: #f7f8fa;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
