@@ -60,6 +60,7 @@ function CreateAccount() {
           </div>
           <div className={classes.input_group}>
             <label>Company name</label>
+            <span>*</span>
             <input
               type="text"
               id="company"
@@ -70,7 +71,7 @@ function CreateAccount() {
           </div>
 
           <p className={classes.question}>
-            Are you an Agency?<span style={{ color: red }}>*</span>
+            Are you an Agency?<span style={{ color: "red" }}>*</span>
           </p>
           <div className={classes.radio_group}>
             <div className={classes.checked}>
