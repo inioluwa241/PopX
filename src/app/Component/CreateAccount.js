@@ -59,8 +59,10 @@ function CreateAccount() {
             />
           </div>
           <div className={classes.input_group}>
-            <label>Company name</label>
-            <span>*</span>
+            <label>
+              Company name
+              <span>*</span>
+            </label>
             <input
               type="text"
               id="company"
