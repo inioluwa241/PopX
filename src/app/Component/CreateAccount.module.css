@@ -44,7 +44,11 @@
   background: #6c25ff;
   width: 12px;
   height: 12px;
-  transform: translate(-6%, 4%);
+  transform: translate(-4%, 3%);
+  -webkit-transform: translate(-4%, 3%);
+  -moz-transform: translate(-4%, 3%);
+  -ms-transform: translate(-4%, 3%);
+  -o-transform: translate(-4%, 3%);
 }
 .unchecked {
   border: 2px solid #cacccb;
@@ -52,8 +56,6 @@
 
 .radio_group p {
   display: flex;
-  /* align-items: center; */
-  /* margin-right: 20px; */
   font-weight: 400;
   color: #1d2226;
 }

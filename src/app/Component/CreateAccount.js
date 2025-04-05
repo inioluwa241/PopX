@@ -70,32 +70,15 @@ function CreateAccount() {
           </div>
 
           <p className={classes.question}>
-            Are you an Agency?<span>*</span>
+            Are you an Agency?<span style={{ color: red }}>*</span>
           </p>
           <div className={classes.radio_group}>
             <div className={classes.checked}>
               <div></div>
             </div>
-            <p>
-              {/* <input
-                type="radio"
-                name="agency"
-                checked
-                disabled
-                className={classes.please}
-              />{" "} */}
-              Yes
-            </p>
+            <p>Yes</p>
             <div className={classes.unchecked}></div>
-            <p>
-              {/* <input
-                type="radio"
-                name="agency"
-                disabled
-                className={classes.please}
-              />{" "} */}
-              No
-            </p>
+            <p>No</p>
           </div>
         </form>
       </div>
